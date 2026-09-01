@@ -32,4 +32,7 @@ The Expo SDK version is pinned deliberately (currently SDK 54) to stay compatibl
 
 ### Stale entry reminders
 
-Whenever working on this project, check `bugs.md` and `features.md` for entries with a "Date added" older than 30 days from today that are still marked unresolved/unimplemented (e.g. status "Open" or "Not started"). If any are found, mention them to the user as a reminder before starting new work.
+- Check `bugs.md` and `features.md` whenever working on this project.
+- An item is stale if its "Date added" is more than 30 days ago and it is still unresolved (bugs) or unimplemented (features).
+- Mention any stale bugs or features before starting new work, so the user can decide whether they should be addressed.
+- Do not automatically fix or implement a stale item unless the user asks.
