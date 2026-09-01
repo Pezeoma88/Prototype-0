@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Hello World",
-    "slug": "hello-world",
+    "name": "TipTap",
+    "slug": "tiptap",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
