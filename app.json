@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "hello-world-scaffold",
-    "slug": "hello-world-scaffold",
+    "name": "Hello World",
+    "slug": "hello-world",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
