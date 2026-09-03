@@ -19,7 +19,7 @@ Final Android Build:
 
 https://expo.dev/accounts/pezeoma88/projects/tiptap/builds/3c4c0d9a-82f1-4711-9f79-dc74066ad9fb
 
-The build page provides access to the Android APK and installation QR code.
+Use the link above to access and install the final Android APK.
 
 Package name: `com.princeezeoma.tiptap`
 
