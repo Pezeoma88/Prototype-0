@@ -13,13 +13,10 @@ import { StatusBar } from 'expo-status-bar';
 type TipOption = 15 | 18 | 20;
 
 // Maps each tip percentage to the decimal rate used in the math.
-// PROTOTYPE 0 INTENTIONAL BUG: the 20% entry below uses 0.02 instead of
-// 0.20, so selecting 20% undercalculates the tip on purpose. This is the
-// class assignment bug and should stay broken until the fix step.
 const TIP_RATES: Record<TipOption, number> = {
   15: 0.15,
   18: 0.18,
-  20: 0.02, // should be 0.20 — intentional bug, do not fix yet
+  20: 0.20,
 };
 
 type Results = {

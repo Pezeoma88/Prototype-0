@@ -2,6 +2,10 @@
 
 This file tracks completed changes and implemented features for TipTap.
 
+## 2026-09-02
+
+- Fixed the 20% tip calculation bug: the `TIP_RATES` lookup used `0.02` instead of `0.20`, causing selecting 20% to massively undercalculate the tip. Corrected to `0.20`.
+
 ## 2026-09-01
 
 - Built the initial TipTap app (renamed from the "Hello World" starter).
